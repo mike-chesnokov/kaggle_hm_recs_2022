@@ -12,6 +12,9 @@ text and image data from product descriptions.
 Main metric of competition is MAP@12. 
 
 ## Files
+- `02_baselines_clean.ipynb` - baseline models validation (common, personal cold, frequent pairs, etc.)
+- `04_implicit_knn_clean.ipynb` - implicit knn models validation (user2user, item2item)
+- `05_2lvl_validation_clean.ipynb` - 2nd level model validation (implicit knn + LightGBM)
 - `metrics.py` - MAP calculation (drop users without transactions in target period)
 - `utils_category_top_items.py` - calculating top items in category
 - `utils_features_2lvl.py` - features building and processing for 2lvl model
